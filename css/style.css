@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/*.test6 {
+    animation: rotate 3s linear infinite;
+}*/
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+/* HTML: <div class="loader"></div> */
+
+
+
+
+
+
+
+
+
+
+
+/* Animation property */
+button {
+    animation: wiggle 2s linear infinite;
+  }
+  
+  /* Keyframes */
+  @keyframes wiggle {
+    0%, 7% {
+      transform: rotateZ(0);
+    }
+    15% {
+      transform: rotateZ(-15deg);
+    }
+    20% {
+      transform: rotateZ(10deg);
+    }
+    25% {
+      transform: rotateZ(-10deg);
+    }
+    30% {
+      transform: rotateZ(6deg);
+    }
+    35% {
+      transform: rotateZ(-4deg);
+    }
+    40%, 100% {
+      transform: rotateZ(0);
+    }
+
+      }
+  
+
+
+
+
+  /* HTML: <div class="loader"></div> */
+
+
+
+#ss-temoignage {
+    background-color: rgb(185, 219, 182);
+    border-radius: 50px 0;
+}
+
+
+/*
+
+
+*/
+
+.ss-navbar {
+   
+    background-color: rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+}
+
+.ss-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.ss-navbar .nav-link:hover {
+    padding-bottom: 20px;
+    border-bottom-color: var(--bs--teal);
+
+}
+
+.ss-contact {
+    background-color: #a2bded8c;
+}
+.ss-button {
+    border-color: var(--bs-teal);
+    transition: 0.5s;
+}
+
+.ss-button:hover,
+.ss-button:active {
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+
+
+
+.ss-voirProjet {
+    border-color: aquamarine;
+    transition: 0.5s;
+}
+
+.ss-voirProjet:hover,
+.ss-voirProjet:active {
+    color: #fff;
+    background-color: blueviolet;
+}
+
+.ss-messervices {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../testslider/chalet.jpg) center center fixed no-repeat;
+    height: 1000px;
+}
+
+.ss-messervices .ss-btndevis {
+    border-radius: 3px solide rgb(241, 93, 8);
+    transition: 0.5s;
+}
+
+.ss-messervices .ss-btndevis:hover,
+
+.ss-messervices .ss-btndevis:active {
+    color: white;
+    background-color: rgb(60, 7, 249);
+}
+
+#apropos {
+    text-justify: auto;
+}
+
+/*
+*/
+
+
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+svg {
+	font-family: "Russo One", sans-serif;
+	width: 100%; height: 100%;
+}
+svg text {
+	animation: stroke 5s infinite alternate;
+	stroke-width: 2;
+	stroke: #365FA0;
+	font-size: 100px;
+}
+@keyframes stroke {
+	0%   {
+		fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1);
+		stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+	}
+	70%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); }
+	80%  {fill: rgba(72,138,204,0); stroke: rgba(54,95,160,1); stroke-width: 3; }
+	100% {
+		fill: rgba(72,138,204,1); stroke: rgba(54,95,160,0);
+		stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+	}
+}
+
+.wrapper {background-color: #FFFFFF};
+
+

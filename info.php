@@ -1,0 +1,2 @@
+<?php
+$userAge = 17;
